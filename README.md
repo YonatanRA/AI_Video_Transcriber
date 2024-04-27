@@ -12,4 +12,24 @@ Geoffrey Hinton, often referred to as the "godfather of deep learning," is a Bri
 [![cover](images/cover.png)](https://www.youtube.com/watch?v=kCre83853TM)
 
 
+### Technologies used
+
++ [LangChain](https://www.langchain.com/)
++ [OpenAI GPT4](https://openai.com/)
++ [Whisper](https://openai.com/research/whisper)
+
+
+### How to use this repo
+
+First, we need to store the OpenAI API KEY in a `.env` file to load it with the dotenv library and use it as an environment variable. In `notebooks` folder there is a jupyter notebook with a step by step explanation. In `src` folder there are the python codes for creating Chroma database and getting a chat response, besides requirements.txt file. Use examples:
+
+**Creating database**
+```bash
+python create_database.py
+```
+
+**Getting a response for a user query**
+```bash
+python chat.py -q "What are the main products?"
+```
 
