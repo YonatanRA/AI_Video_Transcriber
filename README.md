@@ -25,11 +25,6 @@ First, we need to store the OpenAI API KEY in a `.env` file to load it with the 
 
 **Creating transcription from Youtube**
 ```bash
-python transcribe.py -u https://www.youtube.com/watch\?v\=60cYUO2bPO8
-```
-
-**Getting a response for a user query**
-```bash
-python chat.py -q "What are the main topics?"
+python transcribe.py -u https://www.youtube.com/watch\?v\=60cYUO2bPO8 -q "What are the main topics?"
 ```
 

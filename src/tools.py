@@ -25,4 +25,4 @@ class Logger:
 
 
 # create logger
-logger = Logger('PDF Reader Log').logger
+logger = Logger('Video Transcriber').logger
