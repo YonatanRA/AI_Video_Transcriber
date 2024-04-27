@@ -23,13 +23,13 @@ Geoffrey Hinton, often referred to as the "godfather of deep learning," is a Bri
 
 First, we need to store the OpenAI API KEY in a `.env` file to load it with the dotenv library and use it as an environment variable. In `notebooks` folder there is a jupyter notebook with a step by step explanation. In `src` folder there are the python codes for creating Chroma database and getting a chat response, besides requirements.txt file. Use examples:
 
-**Creating database**
+**Creating transcription from Youtube**
 ```bash
-python create_database.py
+python transcribe.py -u https://www.youtube.com/watch\?v\=60cYUO2bPO8
 ```
 
 **Getting a response for a user query**
 ```bash
-python chat.py -q "What are the main products?"
+python chat.py -q "What are the main topics?"
 ```
 
