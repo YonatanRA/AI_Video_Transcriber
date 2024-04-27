@@ -21,7 +21,7 @@ Geoffrey Hinton, often referred to as the "godfather of deep learning," is a Bri
 
 ### How to use this repo
 
-First, we need to store the OpenAI API KEY in a `.env` file to load it with the dotenv library and use it as an environment variable. In `notebooks` folder there is a jupyter notebook with a step by step explanation. In `src` folder there are the python codes for creating Chroma database and getting a chat response, besides requirements.txt file. Use examples:
+First, we need to store the OpenAI API KEY in a `.env` file to load it with the dotenv library and use it as an environment variable. In `notebooks` folder there is a jupyter notebook with a step by step explanation. In `src` folder there is the python code for creating the video transcription and getting a chat response, besides requirements.txt file. Use examples:
 
 **Creating transcription from Youtube**
 ```bash
