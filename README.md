@@ -5,7 +5,7 @@ In this project, we will perform a transcription from a YouTube video as an exam
 We'll use the video of Ray Kurzweil and Geoff Hinton Debate the Future of AI, [link](https://www.youtube.com/watch?v=kCre83853TM)
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=kCre83853TM)
+[![cover](images/cover.png)](https://www.youtube.com/watch?v=kCre83853TM)
 
 
 
